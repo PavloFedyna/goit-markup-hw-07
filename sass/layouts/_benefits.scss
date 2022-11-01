@@ -1,28 +1,24 @@
-.benefits-list {
+.details {
     display: flex;
     justify-content: space-between;
     gap: 30px;
 }
 
-.benefits-title {
+.details__title {
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
     margin-bottom: 10px;
 }
 
-.benefits-text {
+.details__text {
     line-height: 1.71;
     color: var(--text-color);
     max-width: 270px;
 }
 
-.benefits-icon-list {
-    display: flex;
-    justify-content: space-between;
-}
 
-.benefits-icon-item {
+.details__icon-item {
     width: 270px;
     height: 120px;
     background: #f5f4fa;
